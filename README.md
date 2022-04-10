@@ -11,7 +11,7 @@ The three variables and their cooresponding cooficients below provided a non-ran
 - Vehicle weight (2.60e-12)
 - Ground clearance (5.21e-08)
 
-![Multiple regression](multiple regression.gif)
+![Multiple regression](MultipleRegression.gif)
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
