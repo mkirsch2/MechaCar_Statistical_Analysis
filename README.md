@@ -27,12 +27,14 @@ The current manufacturing data shows that when looking at all three lots combine
 ![lot_summary](lot_summary.gif)
 
 ## T-Tests on Suspension Coils
-T-tests were performed on the manufacturing lots
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+The t-tests performed on the combined lots, Lot 1, and Lot 2 all produced p-values greater than .05, signifying that the means are statistically similar to the population mean of 1,500 pounds per square inch.
 
 ![t_test](t_test.gif)
+
 ![lot1_t_test](lot1_t_test.gif)
+
 ![lot12_t_test](lot2_t_test.gif)
+
+Lot 3's t-test produced a p-value of 0.04168, signifying that the mean for this lot is statistically different to the population mean.
+
 ![lot3_t_test](lot3_t_test.gif)
