@@ -16,3 +16,9 @@ The three variables and their cooresponding cooficients below provided a non-ran
 The slope of the linear model is not considered to be zero, as a slope of zero would mean that the mpg of the MechaCar prototypes would be determined by random chance. As noted above, there are three variables that provided a non-random amount of variance to the mpg values.
 
 Although this linear model identifies variables that provided a non-random amount of variance, the r-squared value is 0.7149, which leaves approximately 29% of the variability of mpg unexplained. To effectively predict the mgp of MechaCar prototypes, additional modeling should be completed.
+
+## Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data shows that when looking at all three lots combined, the variance is 62.29356 and the specificatinon appears to be met. However, looking at the lots individually provides much needed insite. Lots 1 and 2 have vary low variances, but Lot 3 is well above the 100 pound per square inch threshold. The data confirms that Lot 3 is not meeting the design specification.
+
+![total_summary](total_summary.gif)
+![lot_summary](lot_summary.gif)
